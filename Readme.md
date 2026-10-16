@@ -27,7 +27,7 @@ The script checks the required tools, creates the project folders, builds the ro
 
 The script protects unfinished work by archiving it if you interrupt setup. After each run, it copies the logs into timestamped archive folders and keeps the originals in `reports/`.
 
-## Unfinished-Work Archive
+##  Archive unfinished-Work
 
 Press Ctrl+C or Ctrl+Z before the attendance checker starts. The script zips the incomplete folder into `attendance_tracker_{name}_archive.zip` and removes it.
 
