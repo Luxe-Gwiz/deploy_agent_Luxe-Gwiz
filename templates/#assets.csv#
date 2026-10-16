@@ -1,0 +1,25 @@
+ot@742a55ecb461:/home/projects/attendance_tracker_v1# ./deploy_agent.sh
+Checking required tools and files
+All essentials are present.
+Enter a project name (keep the name short): E-100
+cp: cannot stat '/attendance_checker.py': No such file or directory
+cp: cannot stat '/config.json': No such file or directory
+Created attendance_tracker_E-100 with Helpers/ and reports/.
+
+How do you want to build the roster?
+  A) Copy students from the template
+    B) Generate a fresh roster with sample names
+    Choose A or B: A
+    ./deploy_agent.sh: line 60: /assets.csv: No such file or directory
+    How many students to copy (1--1): 1
+    ERROR: invalid number.0;276;0cNames,Email,Attendance Count,Absence Count
+Alice Johnson,alice@example.com,4,0
+Bob Smith,bob@example.com,1,3
+Charlie Davis,charlie@example.com,2,2
+Diana Prince,diana@example.com,3,1
+Ethan Cole,ethan@example.com,3,1
+Fatima Noor,fatima@example.com,0,4
+George Mensah,george@example.com,2,2
+Hannah Kim,hannah@example.com,2,2
+Ibrahim Osei,ibrahim@example.com,3,1
+Jasmine Lee,jasmine@example.com,1,3
