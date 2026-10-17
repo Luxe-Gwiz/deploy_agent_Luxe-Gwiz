@@ -4,7 +4,7 @@
 
 This program tracks student attendance. It consists of a Python program and a Bash script.
 
-The Python program decides whether each student passes or fails, using the attendance records. The Bash script supplies and manages those records and prepares the project for the Python program.
+The Python program decides whether each student passes or fails, using the attendance records. The Bash script provides  and manages those records and prepares the project for the Python program.
 
 The records are stored in `Helpers/assets.csv`, which holds each student's past attendance. `Helpers/config.json` provides the thresholds the Python program uses to decide pass or fail.
 
@@ -21,7 +21,7 @@ Enter a project name like `v1` when prompted. The script must sit next to the `t
 
 **Feature 1: Deploy the Application**
 
-The script checks the required tools, creates the project folders, builds the roster, sets permissions, sets the thresholds, and starts the attendance checker.
+The script checks the required tools , creates the project folders needed for the python to run , builds the roster (new, current) , sets permissions as stated , sets the thresholds, and starts the attendance checker.
 
 **Feature 2: Protect and Organize the Work**
 
